@@ -1,4 +1,4 @@
-defmodule KinoOpenai.OpenaiCell do
+defmodule KinoOpenAI.OpenAICell do
   @moduledoc false
 
   use Kino.JS, assets_path: "lib/assets/kino_openai"

@@ -19,7 +19,7 @@ defmodule KinoOpenai.MixProject do
 
   def application do
     [
-      mod: {KinoOpenai.Application, []}
+      mod: {KinoOpenAI.Application, []}
     ]
   end
 

@@ -5,13 +5,9 @@ defmodule KinoOpenaiTest do
 
   setup :configure_livebook_bridge
 
-  test "supplies its hardcoded source" do
-    {_kino, source} = start_smart_cell!(KinoOpenai.OpenaiCell, %{})
+  test "supplies error with no inputs" do
+    {_kino, source} = start_smart_cell!(KinoOpenAI.OpenAICell, %{})
 
-    assert source ==
-             """
-             IO.puts("Not ready reading drive A")
-             IO.puts("Abort, Retry, Fail?")\
-             """
+    assert source == "\"Sorry, you're missing some details to make the full request\""
   end
 end

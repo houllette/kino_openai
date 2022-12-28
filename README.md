@@ -1,6 +1,7 @@
 # KinoOpenai
 
-**TODO: Add description**
+[OpenAI](https://openai.com/api/) integration with [Kino](https://github.com/livebook-dev/kino)
+for [Livebook](https://github.com/livebook-dev/livebook)
 
 ## Installation
 
